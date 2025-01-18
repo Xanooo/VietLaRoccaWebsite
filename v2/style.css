@@ -1,0 +1,127 @@
+body {
+	background: linear-gradient(to bottom left, black, #004000);
+	background-repeat: no-repeat;
+}
+
+header {
+	border: 5px solid black;
+	background-image: linear-gradient(to bottom right, black, #C80000);
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	padding-left: 2%;
+}
+
+.logo {
+	width: 250px;
+}
+
+.title_main {
+	font-size: 400%;
+	color: #DC0000;
+	text-shadow: 10px 10px 5px black;
+	font-family: impact;
+	letter-spacing: 4px;
+}
+
+.menu {
+	width: 100%;
+	display: flex;
+	overflow: hidden;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	background-image: linear-gradient(to bottom right, black, #C80000);
+	z-index: 2;
+}
+
+.sticky a {
+	padding: 1%;
+	font-size: 110%;
+}
+
+.not_sticky a {
+	padding: 2%;
+	font-size: 120%;
+}
+
+.menu a {
+	width: 16%;
+	float: left;
+  	text-align: center;
+  	text-decoration: none;
+  	color: white;
+}
+
+.menu a:hover {
+	background-color: red;
+}
+
+.active {
+	background-color: black;
+}
+
+.middle {
+	display: flex;
+	border: 5px solid black;
+}
+
+aside {
+	border: 2px solid black;
+	width: 18%;
+	text-align: center;
+	background-image: linear-gradient(to bottom, #FBEEE6, #E59866);
+}
+
+.poster div {
+	margin: 2%;
+	border: 2px solid black;
+}
+
+aside iframe {
+	width: 100%;
+	height: 100%;
+}
+
+article {
+	border: 2px solid black;
+	width: 64%;
+	height: 1000px;
+	padding: auto;
+	text-align: center;
+	margin: 1%;
+	background-image: linear-gradient(to bottom, #FBEEE6, #E59866);
+}
+
+.page {
+	width: 100%;
+	height: 100%;
+}
+
+.not_page {
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+	display: none;
+	visibility: hidden;
+}
+
+footer {
+	border: 5px solid black;
+	background-image: linear-gradient(to bottom right, #0064FA, black);
+	color: white;
+	text-align: center;
+}
+
+.logo_insta {
+	width: 20px;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}

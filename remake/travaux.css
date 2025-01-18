@@ -1,0 +1,244 @@
+body {
+background-image: url("aikido/porte-fermé.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+header {
+display:flex;
+
+padding: 5px;
+text-align: center;
+font-size: 30px;
+border: 2.5px black solid;
+}
+
+.enhaut {
+align-items:center;
+display:flex;
+text-align:center;
+margin-left: 200px;
+}
+
+nav {
+
+}
+
+article {
+display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding:30px;
+  text-align: center;
+}
+
+aside {
+background-image: url("aikido/torii-pilier.png");
+background-repeat:no-repeat;
+background-size:57%;
+background-position:top;
+}
+
+#right{
+background-position:left;
+}
+
+#left{
+background-position:right;
+
+
+}
+
+section {
+
+}
+
+div {
+
+}
+
+footer {
+
+}
+
+.title_main {
+text-align: center;
+}
+
+.menu{
+border: 2.5px black solid;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 100px;
+display:block;
+padding: 10px;
+padding-left: auto;
+padding-right: auto;
+align-items: center;
+justify-contents: center;
+height:100px;
+
+}
+
+.bouton {
+height: 100px;
+width: 150px;
+margin-right: auto;
+margin-left: auto;
+}
+
+
+.fin{
+text-align:center;
+border: 2.5px black solid;
+padding:15px;
+}
+
+
+
+#menu_left{
+margin-left:110px;
+}
+
+#menu_right{
+margin-right:110px;
+}
+
+.menu_cote {
+padding:20px;
+text-align:center;
+width:100px;
+border: 2.5px black solid;
+display: block;
+
+}
+
+.image{
+display:block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+padding:30px;
+}
+
+
+.article {
+border: 2.5px black solid;
+margin-right: 20px;
+margin-left: 20px;
+width: 800px;
+margin-top: 25px;
+}
+
+
+button{
+	box-shadow:inset 0px 0px 15px 3px #0c3066;
+	background:linear-gradient(to bottom, #87b5ff 5%, #15367a 100%);
+	background-color:#87b5ff;
+	border:1px solid #1979ff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+nutton:hover {
+	background:linear-gradient(to bottom, #15367a 5%, #87b5ff 100%);
+	background-color:#15367a;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+.logo{
+max-width: 100%;
+
+
+
+}
+
+.d1{
+	
+width:100%;
+height:auto;
+margin-right:auto;
+margin-left:auto;
+background-color:#EDEDED;
+background-size: contain;	
+animation: fondu 9s ease-in-out infinite both;
+}
+
+.d2{
+	
+width:97.5%;
+height:auto;
+padding-top:75%;
+background-color: #EDEDED;
+background-size:contain;
+	
+    animation: fondu 9s ease-in-out infinite both;
+}
+.d1:hover, .d2:hover{
+    animation-play-state: paused;
+}
+@keyframes fondu{
+    0%{background-image:url("aikido/dojo.png");}
+    33.33%{background-image: url("aikido/photoaikido.png");}
+    66.67%{background-image: url("aikido/photoaikido2.png");}
+    100%{background-image: url("aikido/dojo.png");}
+
+	}
+	
+.conteneur{
+padding:20px;
+
+}
+
+.torii{
+background-image: url("aikido/torii.png");
+background-repeat:no-repeat;
+background-size:100%;
+background-position: top;
+
+}
+
+.portrait{
+height:200px;
+}
+
+#histoire_main{
+display: block;
+
+}
+
+.prout {
+display: flex;
+margin: 10px;
+padding: 10px;
+background-color: #F0878C
+}
+
+.petit{
+height:30px;
+margin: 2px;
+}
+
+ul li {
+list-style-type: none;
+}
+
+.fight{
+width:650px;
+}
+
+.travail{
+padding:100px;
+background-color:white;
+
+
+}

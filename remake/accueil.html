@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	
+        <title>Aïkido, Aïkibudo Viet La Rocca, Dojo à Marseille</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" href="index.css" />
+    </head>
+    <body>                           
+        <header class="titre" id="up">
+		<div class="enhaut">
+		<img src="aikido/logo1.png"/>
+            <h1 class="title_main">Aikido, Aikibudo <br>
+			Viet la Rocca</h1>
+		</div>
+        </header>
+		<div class="torii">
+		<br>
+		<br>
+<div class="navbar">
+  <a href="accueil.html">Accueil</a>
+  <a href="info.html">Informations</a>
+  <a href="event.html">Evènement</a>
+  <a href="histoire.html">Histoire</a>
+  <a href="inscri.html">Inscriptions</a>
+  <a href="club.html">Club</a>
+  <a href="connexion.html">Connexion</a>
+  <a href="ekip.html">En savoir plus</a>
+
+
+</div>
+		<br>
+		</div>
+
+        <article class="articles" id="info">
+
+            <aside class="coté" id="left">
+
+                <nav class="menu_cote" id="menu_left">
+				
+				<h3> A l'affiche </h3>
+                    <button>boutton</button> <br>
+                    <button>boutton</button> <br>
+                    <button>boutton</button> <br>
+                    <br>
+                    <img src="aikido/Aikibudo.png" class="truc" />
+                </nav>
+				
+            </aside>
+			
+            <section class="article" id="info_main">
+			
+			<div class="slideshow-container">
+  <div class="mySlides">
+    <q>Si tu vaincs un ennemi, il sera toujours ton ennemi. Si tu convaincs un ennemi, il deviendra ton ami.</q>
+    <p class="author">- Morihei Ueshiba</p>
+  </div>
+
+  <div class="mySlides">
+    <q>L'échec est la clé du succès : chaque erreur nous apprend quelque chose.</q>
+    <p class="author">- Morihei Ueshiba</p>
+  </div>
+
+  <div class="mySlides">
+    <q>La sagesse ne peut venir que de l'expérience. </q>
+    <p class="author">- Morihei Ueshiba</p>
+  </div>
+
+  <!-- Next/prev buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Dots/bullets/indicators -->
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+                <div class="d1"></div>
+<div class="conteneur">
+<div class="d2"></div>
+</div>
+
+
+
+            </section>
+            <aside class="coté" id="right">
+                <nav class="menu_cote" id="menu_right">
+				<h3> Navigation Rapide </h3>
+                    <button>boutton</button> <br>
+                    <button>boutton</button> <br>
+                    <button>boutton</button> <br>
+                </nav>
+
+            </aside>
+        </article>
+		
+        <footer class="fin" id="down">
+            <h2>Contact</h2>
+			<p> N° de téléphone : 06 20 37 01 02 / 06 21 84 07 20</p>
+			<a target="_blank" href="https://www.google.com/maps/place/40+Chem.+du+Bass.,+13014+Marseille/data=!4m2!3m1!1s0x12c9bfed7a1f8083:0x9d60e972c974dc3d?sa=X&ved=2ahUKEwi44YyA-9v2AhVEOBoKHeGkD-4Q8gF6BAgSEAE"> Lieu : 40 Chemin du Bassin 13014 Marseille </a> <br>
+            <a onclick="alert('En Travaux')">Deuxième gymnase pour lundi et jeudi : Gymnase St-Jérome, Les Lilas</a>
+        </footer>
+    </body>
+</html>

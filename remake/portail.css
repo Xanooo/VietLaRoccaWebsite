@@ -1,0 +1,36 @@
+article {
+display: block;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+}
+
+button {
+margin: 50px;
+width: 200px;
+height: 100px;
+}
+
+body{
+background-image: url("aikido/porte-fermé.png");
+background-position: center top;
+background-size: cover;
+}
+.title_main {
+text-align: center;
+}
+
+header {
+display:flex;
+padding: 5px;
+text-align: center;
+font-size: 30px;
+border: 2.5px black solid;
+}
+
+.enhaut {
+align-items:center;
+display:flex;
+text-align:center;
+margin-left: 200px;
+}

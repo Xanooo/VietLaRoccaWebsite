@@ -1,0 +1,399 @@
+
+	
+body {
+background-image: url("aikido/porte-ouvert.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+header {
+display:flex;
+
+padding: 5px;
+text-align: center;
+font-size: 30px;
+border: 2.5px black solid;
+}
+
+.enhaut {
+align-items:center;
+display:flex;
+text-align:center;
+margin-left: 200px;
+}
+
+nav {
+
+}
+
+article {
+display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding:30px;
+  text-align: center;
+}
+
+aside {
+background-image: url("aikido/torii-pilier.png");
+background-repeat:no-repeat;
+background-size:56% 100%;
+background-position: top;
+}
+
+#right{
+background-position:left;
+}
+
+#left{
+background-position:right;
+
+
+}
+
+
+.title_main {
+text-align: center;
+}
+
+.menu{
+border: 2.5px black solid;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 100px;
+display:block;
+padding: 10px;
+padding-left: auto;
+padding-right: auto;
+align-items: center;
+justify-contents: center;
+height:100px;
+
+}
+
+
+
+.fin{
+text-align:center;
+border: 2.5px black solid;
+padding:15px;
+background-color:white;
+}
+
+
+
+#menu_left{
+margin-left:110px;
+}
+
+#menu_right{
+margin-right:110px;
+}
+
+.menu_cote {
+padding:20px;
+text-align:center;
+width:100px;
+border: 2.5px black solid;
+display: block;
+
+}
+
+.image{
+display:block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+padding:30px;
+}
+
+
+.article {
+border: 2.5px black solid;
+margin-right: 20px;
+margin-left: 20px;
+width: 800px;
+margin-top: 25px;
+}
+
+
+button:hover {
+	background:linear-gradient(to bottom, #15367a 5%, #87b5ff 100%);
+	background-color:#15367a;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+.logo{
+max-width: 100%;
+
+
+
+}
+
+.d1{
+	
+width:100%;
+height:auto;
+margin-right:auto;
+margin-left:auto;
+background-color:#EDEDED;
+background-size: contain;	
+animation: fondu 9s ease-in-out infinite both;
+}
+
+.d2{
+	
+width:97.5%;
+height:auto;
+padding-top:75%;
+background-color: #EDEDED;
+background-size:contain;
+	
+    animation: fondu 9s ease-in-out infinite both;
+}
+.d1:hover, .d2:hover{
+    animation-play-state: paused;
+}
+@keyframes fondu{
+    0%{background-image:url("aikido/dojo.png");}
+    33.33%{background-image: url("aikido/photoaikido.png");}
+    66.67%{background-image: url("aikido/photoaikido2.png");}
+    100%{background-image: url("aikido/dojo.png");}
+
+	}
+	
+.conteneur{
+padding:20px;
+
+}
+
+.torii{
+background-image: url("aikido/torii.png");
+background-repeat:no-repeat;
+background-size:100%;
+background-position: top;
+
+}
+
+.portrait{
+height:200px;
+}
+
+#histoire_main{
+display: block;
+
+}
+
+.prout {
+display: flex;
+margin: 5px;
+padding: 5px;
+background-color: #F0878C
+}
+
+.petit{
+height:30px;
+margin: 2px;
+}
+
+ul li {
+list-style-type: none;
+}
+
+.fight{
+width:650px;
+}
+
+.travail{
+padding:100px;
+background-color:white;
+
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 25px 25px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+position: absolute;
+left: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+.d1{
+	
+width:100%;
+height:auto;
+margin-right:auto;
+margin-left:auto;
+background-color:#EDEDED;
+background-size: contain;	
+animation: fondu 9s ease-in-out infinite both;
+}
+
+.d2{
+	
+width:97.5%;
+height:auto;
+padding-top:75%;
+background-color: #EDEDED;
+background-size:contain;
+	
+    animation: fondu 9s ease-in-out infinite both;
+}
+.d1:hover, .d2:hover{
+    animation-play-state: paused;
+}
+@keyframes fondu{
+    0%{background-image:url("aikido/dojo.png");}
+    33.33%{background-image: url("aikido/photoaikido.png");}
+    66.67%{background-image: url("aikido/photoaikido2.png");}
+    100%{background-image: url("aikido/dojo.png");}
+
+	}
+	
+.conteneur{
+padding:20px;
+
+}

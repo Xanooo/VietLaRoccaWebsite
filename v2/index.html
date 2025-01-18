@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aïkidao La Rocca</title>
+        <link rel="icon" type="image/x-icon" href="assets/logo.png">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <header class="top_banner">
+            <div class="title">
+                <img src="assets/logo.png" class="logo">
+                <h1 class="title_main"><em>AIKI BUDO<br>LA ROCCA<br>AIKIDAO</em></h1>
+		    </div>
+            <nav class="menu" id="navbar">
+                <a id="accubutton" class="active"><strong>ACCUEIL</strong></a>
+                <a id="infobutton"><strong>INFO</strong></a>
+                <a id="evenbutton"><strong>EVENT</strong></a>
+                <a id="histbutton"><strong>HISTOIRE</strong></a>
+                <a id="inscbutton"><strong>INSCRIPTION</strong></a>
+                <a onclick="alert('EN TRAVAUX')"><strong>CLUB</strong></a>
+            </nav>
+        </header>
+        <section class="middle">
+            <aside class="poster">
+                <iframe src="affiche.html"></iframe>
+            </aside>
+            <article class="article">
+                <iframe src="accueil.html" id="accueil" class="page"></iframe>
+                <iframe src="info.html" id="info" class="not_page"></iframe>
+                <iframe src="event.html" id="event" class="not_page"></iframe>
+                <iframe src="histoire.html" id="hist" class="not_page"></iframe>
+                <iframe src="inscription.html" id="inscri" class="not_page"></iframe>
+            </article>
+            <aside class="other">
+                <iframe src="nav_rap.html"></iframe>
+            </aside>
+        </section>
+        <footer class="bottom_banner">
+            <h2>Contacts</h2>
+            <a href="https://www.instagram.com/aikidaolarocca.marseille/" target="_blank">
+                <img src="assets/insta.png" class="logo_insta"> @aikidaolarocca.marseille</a><br>
+            <p>06 20 37 01 02 / 06 21 84 07 20</p>
+            <p>aikidaolarocca.marseille@hotmail.com</p>
+        </footer>
+        <script>
+            window.onscroll = function() {sticky_menu()};
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function sticky_menu() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.remove("not_sticky");
+                    navbar.classList.add("sticky");
+                } else {
+                    navbar.classList.remove("sticky");
+                    navbar.classList.add("not_sticky");
+                }
+            }
+
+            var button_accueil = document.getElementById("accubutton");
+            var button_info = document.getElementById("infobutton");
+            var button_event = document.getElementById("evenbutton");
+            var button_hist = document.getElementById("histbutton");
+            var button_inscr = document.getElementById("inscbutton");
+
+            var page_accueil = document.getElementById("accueil");
+            var page_info = document.getElementById("info");
+            var page_event = document.getElementById("event");
+            var page_hist = document.getElementById("hist");
+            var page_inscr = document.getElementById("inscri");
+  
+            const button_menu = [button_accueil, button_info, button_event, button_hist, button_inscr];
+            const pages = [page_accueil, page_info, page_event, page_hist, page_inscr];
+
+            
+            
+
+        </script>
+    </body>
+</html>
